@@ -9,5 +9,7 @@
                 <p class="truncate text-xs leading-5 text-gray-500">Pays {{ $job['salary'] }}</p>
             </a>
         @endforeach
+
+        {{ $jobs->links() }}
     </div>
 </x-layout>
